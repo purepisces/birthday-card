@@ -1,0 +1,45 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0e8ff; /* Light purple background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+}
+
+.card {
+    background-color: #ffffff; /* White background for the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px;
+    text-align: center; /* Center text */
+    max-width: 300px; /* Maximum width of the card */
+}
+
+h1 {
+    color: #4a47a3; /* Dark purple for the heading */
+    margin-top: 0;
+}
+
+p {
+    color: #555; /* Dark gray for the paragraph text */
+}
+
+button {
+    background-color: #4a47a3; /* Dark purple background for the button */
+    color: #ffffff; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding around the text */
+    text-align: center; /* Center the text */
+    display: inline-block; /* Allow setting dimensions */
+    font-size: 16px; /* Text size */
+    margin: 10px 2px; /* Margin around the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners for the button */
+}
+
+#surprise {
+    margin-top: 15px; /* Space above the surprise message */
+}
